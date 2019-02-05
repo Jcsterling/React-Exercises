@@ -7,7 +7,7 @@ class TrainerTable extends Component{
     render(){
         return(
     <div name = "table">
-        <table width="90%" border="2">
+        <table width="100%" border="2" BORDERCOLOR = "#4d04ea" bgcolor = "#f2c6c6">
             <tr>
                 <th>Trainer name</th>
                 <th>Start name</th>

@@ -8,7 +8,6 @@ class Trainer extends Component {
         return(
             <div>
                 <TrainerHeader />  
-                
                 <TrainerTableName />
                 <TrainerTable />
             </div>

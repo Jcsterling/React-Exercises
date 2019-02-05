@@ -1,0 +1,13 @@
+import React, { Component } from 'react';
+import ChangeTextClass from './ChangeTextClass.js';
+
+class Header extends Component {
+  render() {
+    return (
+      <div>
+        <h1>{ this.props.headerProp }</h1></div>
+      );
+  }
+}
+
+export default Header;
