@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css';
 //********************************************************** */
 import HelloWorld from './helloWorld.js';
 //********************************************************** */
@@ -10,13 +11,18 @@ import PropExample from './PropExample.js';
 import StateExample from './StateExample.js';
 import PropAndStateExample from './PropAndStateExample.js';
 //********************************************************** */
+import TrainerDataConstructor from './TrainerDataConstructor.js';
+//********************************************************** */
 import ChangeStateConstructor from './ChangeStateConstrutor.js';
-import ChangeTextClass from './ChangeTextClass.js'
+import ChangeTextClass from './ChangeTextClass.js';
+//********************************************************** */
+
+//********************************************************** */
 
 class App extends Component {
+
    
-
-
+   
 //   render() {
 //     return (
 //       <div>
@@ -26,20 +32,46 @@ class App extends Component {
 //   }
 // }
 
-//CREATING TRAINER AVAILABILITY PAGE
-//   render(){
-//         return(
-//             <div>
-//                 <div>
-//                     <TrainerHeader /> 
-//                 </div> 
-//                 <TrainerTableName />
-//                 <TrainerTable />
-//             </div>
-//         )
+// CREATING TRAINER AVAILABILITY PAGE
+  render(){
+        return(
+            <div>
+                <div>
+                    <TrainerHeader /> 
+                </div>
+                <div> 
+                    <TrainerTableName />
+                </div>
+                {/* <div>
+                    <TrainerTable />
+                </div> */}
+                <div>
+                <TrainerDataConstructor />
+                </div>
+            </div>
+        )
+    }
+}
 
-//     }
+//USING A MAP TO CREATE THE TRAINER TABLE FOR THE TRAINER AVAILABILITY PAGE
+// render(){
+//     return(
+//         <div>
+//             <TrainerDataConstructor />
+//         </div>
+//     );
 // }
+// }
+
+// render(){
+//     return(
+//         <div>
+//             <Routing />
+//         </div>
+//     );
+// }
+// }
+
 
 // USING PROPS
 // render() {
@@ -73,17 +105,16 @@ class App extends Component {
 
 
 // CHANGING STATES using a button
-
-render() {
-    return (
-        <div>
-            <div>
-            < ChangeStateConstructor />
-            </div>
-        </div>
-    );
-}
-}
+// render() {
+//     return (
+//         <div>
+//             <div>
+//             < ChangeStateConstructor />
+//             </div>
+//         </div>
+//     );
+// }
+// }
 
 
 

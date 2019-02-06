@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class TrainerTableName extends Component{
     render(){
         return(
-        <h1> Trainer Availability </h1>
+        <h1 align="center">Trainer Availability </h1>
         )
     }
 }
