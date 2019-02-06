@@ -1,5 +1,6 @@
 // import React from "react";
 // import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+// import TrainerAvailability from './TrainerAvailability'
 
 
 // function BasicExample() {
@@ -17,3 +18,5 @@
 //     </Router>
 //   );
 // }
+
+// export default BasicExample;
