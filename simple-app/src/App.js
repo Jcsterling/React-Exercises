@@ -16,13 +16,13 @@ import TrainerDataConstructor from './TrainerDataConstructor.js';
 import ChangeStateConstructor from './ChangeStateConstrutor.js';
 import ChangeTextClass from './ChangeTextClass.js';
 //********************************************************** */
-
+import TrainerAvailability from './TrainerAvailability.js'
+import BasicExample from './Routing.js'
 //********************************************************** */
 
 class App extends Component {
 
-   
-   
+     
 //   render() {
 //     return (
 //       <div>
@@ -33,25 +33,14 @@ class App extends Component {
 // }
 
 // CREATING TRAINER AVAILABILITY PAGE
-  render(){
-        return(
-            <div>
-                <div>
-                    <TrainerHeader /> 
-                </div>
-                <div> 
-                    <TrainerTableName />
-                </div>
-                {/* <div>
-                    <TrainerTable />
-                </div> */}
-                <div>
-                <TrainerDataConstructor />
-                </div>
-            </div>
-        )
-    }
-}
+//   render(){
+//         return(
+//             <div>
+//                 <TrainerAvailability />
+//             </div>
+//         )
+//     }
+// }
 
 //USING A MAP TO CREATE THE TRAINER TABLE FOR THE TRAINER AVAILABILITY PAGE
 // render(){
@@ -115,6 +104,16 @@ class App extends Component {
 //     );
 // }
 // }
+
+// Routing
+ render(){
+        return(
+            <div>
+                <BasicExample />
+            </div>
+        )
+    }
+}
 
 
 
